@@ -17,3 +17,10 @@ def fact(x):  # factorial
 
 
 print(fact(5))
+
+
+def sums(lst):  # sum of digits
+    return lst[0] + sum(lst[1:])
+
+
+print(sums([i for i in range(1, 10)]))
