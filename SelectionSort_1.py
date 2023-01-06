@@ -1,6 +1,5 @@
 from array import *
 
-
 def find_smallest(arr):
     """Selection sort  O(n**2)"""
     smallest = arr[0]

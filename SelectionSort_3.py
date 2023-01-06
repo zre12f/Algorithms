@@ -1,4 +1,5 @@
 def selection_sort(lst):
+    """O(n**2)"""
     for num in range(len(lst)):
         min_value = num
 

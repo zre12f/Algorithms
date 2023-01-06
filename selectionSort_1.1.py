@@ -1,5 +1,5 @@
 from array import *
-
+"""O(n**2)"""
 
 def selection_sort(arr):
     new_arr = array('i', [])
